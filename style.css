@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Global */
+p {
+  padding: 0.5rem 0rem;
+}
+
+/* div.top */
+div.top {
+  padding: 1.5rem 1rem;
+  background-color: rgb(200, 200, 200);
+}
+div.top h1 {
+  font-size: 2.5rem;
+}
+
+/* navbar */
+header nav {
+  background-color: rgb(38, 36, 36);
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  padding: 1rem 1.5rem;
+}
+header nav ul li a {
+  color: rgb(221, 215, 215);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+header nav ul li a:hover,
+.active {
+  color: white;
+}
+
+/* Main */
+main {
+  display: flex;
+}
+section.left {
+  width: 70vw;
+  margin-right: 2rem;
+  font-size: 1.1rem;
+  padding: 2rem;
+}
+
+section.right {
+  width: 25vw;
+  padding: 2rem;
+}
+
+section.right h5 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+iframe {
+  border-radius: 25%;
+}
+
+/* Agriculture */
+section.row {
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+p.center {
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+section.row ol {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* Industry */
+section.part {
+  padding: 2rem;
+  display: flex;
+  font-size: 1.1rem;
+}
+section.part div {
+  margin: 0rem 1rem;
+}
+
+/* Economic */
+div.imgContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+section.row ul li {
+  margin-left: 1rem;
+}
+section.row ul li a {
+  text-decoration: none;
+  color: rgb(69, 138, 115);
+  transition: all 0.2s ease;
+}
+section.row ul li a:hover {
+  color: rgb(111, 227, 188);
+}
